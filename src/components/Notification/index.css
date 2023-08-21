@@ -1,0 +1,59 @@
+.notification {
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 100px;
+  border: 1px solid #e5e5e5;
+  width: 350px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .notification {
+    min-width: 450px;
+  }
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 70%;
+}
+
+.check-circle {
+  margin-right: 10px;
+}
+p {
+  margin: 0;
+  line-height: 20px;
+}
+.status {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.message-text {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.close-form {
+  flex-grow: 1;
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}

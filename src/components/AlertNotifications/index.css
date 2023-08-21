@@ -1,0 +1,38 @@
+.alert-notifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notifications-heading {
+  color: #0f172a;
+  font-family: 'roboto';
+  text-align: center;
+}
+.check-circle {
+  color: #2dca73;
+  height: 25px;
+  width: 25px;
+}
+.error-icon {
+  color: #ff0b37;
+  height: 25px;
+  width: 25px;
+}
+.warning-icon {
+  color: #ffb800;
+  height: 25px;
+  width: 25px;
+}
+.info-icon {
+  color: #0f81e0;
+  height: 25px;
+  width: 25px;
+}
+.close-form {
+  height: 25px;
+  width: 25px;
+}
